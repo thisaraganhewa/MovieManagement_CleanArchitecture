@@ -1,0 +1,2 @@
+# MovieManagement_CleanArchitecture
+Cleant architecture test project
