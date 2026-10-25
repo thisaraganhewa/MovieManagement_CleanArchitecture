@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\my projects\\MovieManagement_CleanArchitecture\\aspire\\MovieManagement.AppHost\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA2BB01-2311-0D8C-DE08-188E3D7B05F8}|MovieManagement.AppHost.csproj|d:\\my projects\\moviemanagement_cleanarchitecture\\aspire\\moviemanagement.apphost\\moviemanagement.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3BA2BB01-2311-0D8C-DE08-188E3D7B05F8}|MovieManagement.AppHost.csproj|solutionrelative:moviemanagement.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieManagement.AppHost",
+              "DocumentMoniker": "D:\\my projects\\MovieManagement_CleanArchitecture\\aspire\\MovieManagement.AppHost\\MovieManagement.AppHost.csproj",
+              "RelativeDocumentMoniker": "MovieManagement.AppHost.csproj",
+              "ToolTip": "D:\\my projects\\MovieManagement_CleanArchitecture\\aspire\\MovieManagement.AppHost\\MovieManagement.AppHost.csproj",
+              "RelativeToolTip": "MovieManagement.AppHost.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-12T17:52:51.527Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

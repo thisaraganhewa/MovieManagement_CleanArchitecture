@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "MovieManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MovieManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MovieManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieManagement.Application.dll": {}
+        }
+      },
+      "MovieManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MovieManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieManagement.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MovieManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../MovieManagement.Application/MovieManagement.Application.csproj",
+      "msbuildProject": "../MovieManagement.Application/MovieManagement.Application.csproj"
+    },
+    "MovieManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MovieManagement.Domain/MovieManagement.Domain.csproj",
+      "msbuildProject": "../MovieManagement.Domain/MovieManagement.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "MovieManagement.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\thisarad\\.nuget\\packages\\": {},
@@ -38,7 +75,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\my projects\\MovieManagement_CleanArchitecture\\src\\MovieManagement.Application\\MovieManagement.Application.csproj": {
+              "projectPath": "D:\\my projects\\MovieManagement_CleanArchitecture\\src\\MovieManagement.Application\\MovieManagement.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
